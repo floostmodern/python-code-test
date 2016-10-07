@@ -7,8 +7,8 @@ echo -e "\033[0;34m > Main User:   $USER\033[0m"
 # Housekeeping
 echo -e "\033[0;34m > Installing system packages.\033[0m"
 apt-get update
-apt-get install -y git vim python-setuptools python2.7 build-essential \
-  python-dev libncurses5-dev fabric postgresql-9.5 postgresql-server-dev-9.5 \
+apt-get install -y git vim build-essential python3.5-dev \
+  libncurses5-dev fabric postgresql-9.5 postgresql-server-dev-9.5 \
   libjpeg62-dev zlib1g-dev libfreetype6-dev
 
 # Python environment and tools

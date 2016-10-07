@@ -28,5 +28,5 @@ echo -e "\033[0;34m > Setting up virtualenv\033[0m"
 export WORKON_HOME=/home/$USER/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 export PIP_VIRTUALENV_BASE=/home/$USER/.virtualenvs
-mkvirtualenv code-test
+mkvirtualenv --python=python3 code-test
 workon code-test
