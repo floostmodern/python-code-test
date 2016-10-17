@@ -6,12 +6,11 @@ The idea is to do some prototype work on a site that allows users to upload thei
 
 A Django project has been created and some initial data models have been created.
 
-
 ## Getting started
+* You'll need to install [VirtualBox](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/) on your development machine
 * Get the code from `https://github.com/ostmodern/python-code-test`
 * Do all your work in your own `develop` branch
-* Once you have downloaded the code the following commands will get the site up and
-running
+* Once you have downloaded the code the following commands will get the site up and running
 
 ```shell
 vagrant up
@@ -19,7 +18,7 @@ vagrant ssh
 fab migrate
 fab web
 ```
-* The default Django "It works!" page should now be available here: http://localhost:8888/
+* The default Django "It worked!" page should now be available at http://localhost:8888/
 
 ## Tasks
 
