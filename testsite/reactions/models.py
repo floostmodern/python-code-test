@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
-class ItemAbstract(models.Model):
+class AbstractReaction(models.Model):
     user = models.ForeignKey(User)
     created_at = models.DateTimeField()
 
@@ -10,9 +10,9 @@ class ItemAbstract(models.Model):
         abstract = True
 
 
-class PhotoItem(ItemAbstract):
+class ImageReaction(AbstractReaction):
     image = models.ImageField()
 
 
-class TweetItem(ItemAbstract):
+class TweetReaction(AbstractReaction):
     text = models.CharField(max_length=150)
