@@ -8,7 +8,7 @@ A Django project has been created and some initial data models have been created
 
 
 ## Getting started
-* Get the code from https://github.com/ostmodern/python­code­test
+* Get the code from `https://github.com/ostmodern/python-code-test`
 * Do all your work in your own `develop` branch
 * Once you have downloaded the code the following commands will get the site up and
 running
