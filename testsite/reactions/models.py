@@ -15,4 +15,4 @@ class ImageReaction(AbstractReaction):
 
 
 class TweetReaction(AbstractReaction):
-    text = models.CharField(max_length=150)
+    text = models.CharField(max_length=140)
